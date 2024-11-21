@@ -5,10 +5,10 @@
 # Then do the following:
 # 1st, To enter terminal use: conda activate python310env
 # 2nd, To start the mongodb server: brew services start mongodb-community@6.0
-# 3rd, To start the server: uvicorn server:app --host 0.0.0.0 --port 8000
-# 4th, To stop the mongodb server: brew services stop mongodb-community@6.0
+# 3rd, To start the server run: uvicorn server:app --host 0.0.0.0 --port 8000
+# 4th, To connect to the server go to: http://localhost:8000/docs in safari
+# 5th, To stop the mongodb server: brew services stop mongodb-community@6.0
 
-# To connect to the server go to: http://localhost:8000/docs
 
 
 import os
